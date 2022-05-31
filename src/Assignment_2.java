@@ -1,7 +1,8 @@
 
 import java.util.Scanner;
 
-public class TemperatureConversion {
+public class Assignment_2
+ {
    private static double tofahrenheit(double celsius){
    return ( celsius * (9.0/5.0) + 32 );
 }
@@ -20,8 +21,7 @@ public static void main(String[] args) {
 
   fahrenheit = tofahrenheit(celsius);
 
-  System.out.println("Fahrenheit value = "
-                         +fahrenheit);
+  System.out.println("Fahrenheit value = " +fahrenheit);
 
   scan.close();
   }
