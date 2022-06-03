@@ -4,7 +4,7 @@ public class Assignment2_3 {
       System.out.println("kilograms \t| \tpounds");
       System.out.println("-----------------+-----------");
       
-      for (int i = 1; i <= 100; i ++) { 
+      for (int i = 1; i <= 15; i ++) { 
         String output = String.format("%03d", i);
         
         System.out.println(" " + i + " " + (2.2 * i) + " ");
